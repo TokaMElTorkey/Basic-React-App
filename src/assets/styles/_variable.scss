@@ -1,0 +1,36 @@
+$primary-color:#4F517D;
+$secondary-color:#FFA69E;
+$borders-color:#9FA0B8;
+$font-color:#77838f;
+$white:#fff;
+$dark:#000;
+
+
+
+///////////fonts
+$font-size-standard:16px;
+
+///////////
+.border-shadow-none{
+  border: none;
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: $primary-color;
+  &:hover , &:focus , &:active {
+    background-color: rgba( $primary-color , 0.8 );
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary-color;
+  &:hover , &:focus , &:active{
+    background-color: rgba( $secondary-color , 0.8 );
+  }
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+

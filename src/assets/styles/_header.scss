@@ -1,0 +1,24 @@
+
+.navbar {
+	background-color: $white;
+	box-shadow: 0px 1px 3px rgba( $borders-color, .5 );
+	.navbar-brand{
+		color:$dark;
+	}
+	.navbar-nav {
+		.nav-item {
+			.nav-link{
+				color:$primary-color;
+				&:hover{
+					color:rgba( $primary-color, .8 );
+				}
+			}
+			&.active {
+				color:$font-color;
+				&:hover{
+					color:rgba( $font-color , .8 );
+				}
+			}
+		}
+	}
+}

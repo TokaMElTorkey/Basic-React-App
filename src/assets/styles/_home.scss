@@ -1,0 +1,18 @@
+.icon-with-text{
+  i{
+    font-size: $font-size-standard * 2 ;
+    &.fa-diamond{
+      color:$primary-color;
+    }
+    &.fa-bullseye{
+      color:$secondary-color;
+    }
+    &.fa-tachometer {
+      color: $borders-color;
+    }
+  }
+}
+
+.three-movie {
+  background-color: rgba( $borders-color , 0.2 );
+}

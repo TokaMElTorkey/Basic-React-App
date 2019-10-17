@@ -1,0 +1,13 @@
+.tabs {
+	margin: 20px 0px;
+	li {
+		a {
+			color: $primary-color;
+			&:hover , &:focus {
+				background: lighten( $borders-color, 30% );
+				border-radius: 5px;
+				color: $secondary-color;
+			}
+		}
+	}
+}

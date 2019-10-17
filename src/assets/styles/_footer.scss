@@ -1,0 +1,14 @@
+footer{
+	background-color: $primary-color;
+	color: $white;
+	.icon {
+		font-size: $font-size-standard;
+		width: 25px;
+		display: inline-block;  
+		i {
+			color:$white;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
